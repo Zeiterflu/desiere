@@ -1,0 +1,26 @@
+.aesthetic {
+  background: url("../../img/aeth.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .aesthetic__descr {
+    padding: 172px 0px 284px 0px;
+    width: 530px;
+    margin-left: 407px; }
+    .aesthetic__descr-title {
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 80px;
+      padding-bottom: 22px;
+      margin-bottom: 22px;
+      position: relative; }
+      .aesthetic__descr-title::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        height: 1px;
+        background-color: #6D7278; }
+
+/*# sourceMappingURL=aesthetic.css.map */

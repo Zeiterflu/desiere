@@ -1,0 +1,55 @@
+.guide {
+    padding-top: 79px;
+    padding-bottom: 79px;
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        margin-bottom: 39px;
+    }
+
+    &__timeline {
+
+        &-flex {
+            display: flex;
+            border-bottom: 1px solid #363838;
+            position: relative;
+            &::before {
+                content: '';
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                border-radius: 50%;
+                background-color: #363838;
+            }
+
+        }   
+
+        &-card {
+            width: 260px;
+
+            &:first-child {
+                margin-right: 317px;
+            }
+
+            &--last {
+                margin-top: 30px;
+                margin-left: 306px;
+            }
+
+            &-title {
+                display: flex;
+                align-items: center;
+                margin-bottom: 23px;
+                
+                img {
+                    margin-right: 11px;
+                }
+            
+            }
+
+        }
+    }
+}

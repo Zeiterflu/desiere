@@ -1,0 +1,29 @@
+.ideas {
+  margin: 0px 379px;
+  padding-bottom: 99px; }
+  .ideas__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 29px; }
+  .ideas__row {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr; }
+  .ideas__card {
+    width: 491px; }
+    .ideas__card-title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 38px; }
+    .ideas__card-time {
+      display: flex; }
+      .ideas__card-time--item {
+        display: inline-block;
+        padding: 0px 10px;
+        margin: 10px 0px; }
+      .ideas__card-time--item:nth-child(2) {
+        border-left: 1px solid #707070;
+        border-right: 1px solid #707070; }
+
+/*# sourceMappingURL=ideas.css.map */

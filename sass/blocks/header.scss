@@ -1,0 +1,42 @@
+.header {
+
+    &-container {
+        margin: 49px 401px;
+    }
+
+    &__row {
+        display: flex;
+        align-items: center;
+    }
+
+    &__items-1 {
+        display: flex;
+        width: 191px;
+        justify-content: space-between;
+        
+        a {
+            font-weight: 700;
+            font-size: 16px;
+            color: rgba(54, 56, 56, 0.9033);
+        }
+    }
+
+    &__logo {
+        width: 584px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__items-2 {
+        display: flex;
+        width: 187px;
+        justify-content: space-between;
+
+        a {
+            font-weight: 700;
+            font-size: 16px;
+            color: rgba(54, 56, 56, 0.9033);
+        }
+
+    }
+}

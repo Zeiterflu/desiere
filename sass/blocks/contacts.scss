@@ -1,0 +1,64 @@
+.contacts {
+
+    &__title {
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+
+    div {
+        width: 476px;
+        margin-bottom: 16px;
+    }
+
+    &__mail {
+
+        a {
+            font-weight: 600;
+            font-size: 14px;
+            color: #363838;
+        }
+    }
+
+    &__form {
+
+        input {
+            Width: 351px;
+            Height: 40px;
+            padding: 6px 17px;
+            opacity: 0.7;
+            border: 1px solid #383636;
+            border-radius: 21px;
+            background-color: #DFDFDF;
+        }
+
+        button {
+            color: white;
+            Width:160px;
+            Height:40px;
+            background: #363838;    
+            border-radius: 21px;
+        }
+
+    }
+
+    &__list {
+
+
+
+        &--media {
+            margin: 0px 176px 0px 99px;
+        }
+
+        li {
+            color: #707070;
+            margin-bottom: 15px;
+        }
+
+        i {
+            margin-right: 10px;
+        }
+
+    }
+
+}
